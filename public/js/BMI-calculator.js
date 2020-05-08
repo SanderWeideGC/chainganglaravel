@@ -1,4 +1,5 @@
-const calculate = () => {
+const calculate = (e) => {
+    e.preventDefault();
     const height = parseFloat($("#heightBMI").val().replace(",", "."));
     const weight = parseFloat($("#weightBMI").val().replace(",", "."));
     const bmi =
