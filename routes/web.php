@@ -52,3 +52,5 @@ Route::get('/recipes', function () {
 Route::get('/schedule', function () {
     return view('schedule');
 });
+
+Route::get('/test', 'PostController@show');
