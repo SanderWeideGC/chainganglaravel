@@ -29,69 +29,37 @@
                     <h4>Blog Posts</h4>
                 </div>
                 <div>
+                @foreach($blog as $key => $data)
                     <ul class="blog-ul"> 
                         <li class="blog-li"> 
                             <div class="blog-post">
                                 <img src="img/blog-single-1.jpg"  height="200">
-                                <h4 class="blog-h4">Title</h4>
-                                <p>22-4-2020</p>
-                            </div>
-                        </li>
-                        <li class="blog-li">
-                            <div class="blog-post">
-                                <img src="img/blog-single-2.jpg" height="200">
-                            <h4 class="blog-h4">Hallo</h4>
-                            <p>22-4-2020</p>
-                            </div>
-                        </li>
-                        <li class="blog-li">
-                            <div class="blog-post">
-                                <img src="img/blog-single-3.jpg" height="200">
-                            <h4 class="blog-h4">Hallo</h4>
-                            <p>22-4-2020</p>
-                            </div>
-                        </li>
-                        <li class="blog-li">
-                            <div class="blog-post">
-                                <img src="img/blog-single-4.jpg" height="200">
-                            <h4 class="blog-h4">Hallo</h4>
-                            <p>22-4-2020</p>
-                            </div>
-                        </li>
-                        <li class="blog-li">
-                            <div class="blog-post">
-                                <img src="img/blog-single-1.jpg" height="200">
-                            <h4 class="blog-h4">Hallo</h4>
-                            <p>22-4-2020</p>
-                            </div>
-                        </li>
-                        <li class="blog-li">
-                            <div class="blog-post">
-                                <img src="img/blog-single-2.jpg" height="200">
-                            <h4 class="blog-h4">Hallo</h4>
-                            <p>22-4-2020</p>
+                                <a href="/blog/{{$data->id}}"><h4 class="blog-h4">{{$data->titel}}</h4></a>
+                                <p>{{$data->datum}}</p>
                             </div>
                         </li>
                     </ul>
+                    @endforeach
                 </div>
                 
             </div>
             <div class="col-lg-3 offset-lg-1">
                 <div class="contact-form">
                     <h4>Post Blog</h4>
-                    <form action="#">
+                    <form method="POST" action="/blog">
+                    @csrf
                         <div class="row">
                             <div class="col-lg-12">
-                                <input type="text" placeholder="Title">
+                                <input type="text" name="titel" id="titel" placeholder="Title">
                             </div>
                             <div class="col-lg-12">
                                 <label class="c-btn" style="margin-bottom: 30px;">
-                                    <input type="file" accept="image/png, image/jpeg">
+                                    <input type="file" name="image" id="image" accept="image/png, image/jpeg">
                                     Image
                                 </label>
                             </div>
                             <div class="col-lg-12">
-                                <textarea placeholder="Text"></textarea>
+                                <textarea placeholder="Text" name="body" id="body"></textarea>
                                 <button type="submit" class="c-btn">Post BLog</button>
                             </div>
                         </div>
