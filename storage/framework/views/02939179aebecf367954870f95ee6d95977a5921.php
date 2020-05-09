@@ -12,15 +12,15 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="icon" href="/img/favicon.ico">
 </head>
 
 <body>
@@ -34,7 +34,7 @@
     <div class="container-fluid">
         <div class="logo">
             <a href="./">
-                <img src="img/logo.png" alt="">
+                <img src="/img/logo.png" alt="">
 
             </a>
         </div>
@@ -43,13 +43,13 @@
                 <div class="nav-menu">
                     <nav class="mainmenu mobile-menu">
                         <ul>
-                            <li><a href="./">Home</a></li>
-                            <li><a href="./about-us">About us</a></li>
-                            <li><a href="./schedule">Schedule</a></li>
-                            <li><a href="./recipes">Recipes</a></li>
-                            <li><a href="./forum">Forum</a></li>
-                            <li><a href="./blog">Blog</a></li>
-                            <li><a href="./gallery">Gallery</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about-us">About us</a></li>
+                            <li><a href="/schedule">Schedule</a></li>
+                            <li><a href="/recipes">Recipes</a></li>
+                            <li><a href="/forum">Forum</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="/gallery">Gallery</a></li>
 
                     </ul>
                 </nav>
@@ -87,7 +87,7 @@
             <div class="col-lg-3">
                 <div class="footer-logo-item">
                     <div class="f-logo">
-                        <a href="#"><img src="img/logo.png" alt=""></a>
+                        <a href="#"><img src="/img/logo.png" alt=""></a>
                     </div>
                     <p>Despite growth of the Internet over the past seven years, the use of toll-free phone numbers
                         in television advertising continues.</p>
@@ -144,15 +144,15 @@
 <!-- Footer Section End -->
 
 <!-- Js Plugins -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/mixitup.min.js"></script>
-<script src="js/jquery.nice-select.min.js"></script>
-<script src="js/jquery.slicknav.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/mixitup.min.js"></script>
+<script src="/js/jquery.nice-select.min.js"></script>
+<script src="/js/jquery.slicknav.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/main.js"></script>
 <?php echo $__env->yieldContent("script"); ?>
 </body>
 

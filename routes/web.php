@@ -21,9 +21,21 @@ Route::get('/about-us', function () {
     return view('about-us');
 });
 
+//BLOG ZELIM
+
 Route::get('/blog', function () {
-    return view('blog');
+    $blog = DB::table('blog')->orderBy('id','desc')->paginate(6);
+
+    return view('blog', ['blog' => $blog]);
 });
+
+Route::get('/blog-post', function () {
+    return view('blog-post');
+});
+
+
+
+//EINDE BLOG ZELIM
 
 Route::get('/blog-single', function () {
     return view('blog-single');
@@ -54,3 +66,6 @@ Route::get('/schedule', function () {
 });
 
 Route::get('/test', 'PostController@show');
+Route::post('/blog', 'BlogController@store');
+Route::get('/blog/{post}', 'BlogController@create');
+Route::get('/blog/{post}', 'BlogController@show');
