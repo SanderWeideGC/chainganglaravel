@@ -67,12 +67,66 @@
 <section class="cta-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="cta-text">
-                    <h3>Get Started Today</h3>
-                    <p>New student special! 10% off for our new member!</p>
+            <div class="col-lg-6">
+                <div class="about-text">
+                    <h2>Calculate your BMI</h2>
+                    <p class="long-details">
+                        Our BMI calculator makes it a piece of cake for
+                        you to find your number. However, please
+                        remember that BMI is a rough estimation. The
+                        result can be somewhat misleading for
+                        individuals who are well muscled (such as body
+                        builders), or for those who have lost a
+                        significant amount of muscle (such as the
+                        elderly).
+                    </p>
                 </div>
-                <a href="contact" class="primary-btn cta-btn">book now</a>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-form">
+                    <h4></h4>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <input
+                                    id="heightBMI"
+                                    type="number"
+                                    placeholder="Height in meters"
+                                />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <input
+                                    id="weightBMI"
+                                    type="number"
+                                    placeholder="Weight in Kg"
+                                />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p style="color: white">
+                                    Normal (18,5 - 24,9)
+                                </p>
+                                <p style="color: white">
+                                    Your BMI:
+                                    <span id="resultBMI"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <a
+                                    href="#"
+                                    class="primary-btn about-btn"
+                                    id="calculateBMI"
+                                    >Calculate</a
+                                >
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -144,15 +198,18 @@
 <!-- Footer Section End -->
 
 <!-- Js Plugins -->
-<script src="/js/jquery-3.3.1.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/jquery.magnific-popup.min.js"></script>
-<script src="/js/mixitup.min.js"></script>
-<script src="/js/jquery.nice-select.min.js"></script>
-<script src="/js/jquery.slicknav.js"></script>
-<script src="/js/owl.carousel.min.js"></script>
-<script src="/js/masonry.pkgd.min.js"></script>
-<script src="/js/main.js"></script>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/BMI-calculator.js"></script>
+
 <?php echo $__env->yieldContent("script"); ?>
 </body>
 
