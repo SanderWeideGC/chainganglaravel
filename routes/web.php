@@ -49,10 +49,6 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/forum', function () {
-    return view('forum');
-});
-
 Route::get('/gallery', function () {
     return view('gallery');
 });

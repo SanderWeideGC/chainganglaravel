@@ -47,7 +47,6 @@
                             <li><a href="/about-us">About us</a></li>
                             <li><a href="/schedule">Schedule</a></li>
                             <li><a href="/recipes">Recipes</a></li>
-                            <li><a href="/forum">Forum</a></li>
                             <li><a href="/blog">Blog</a></li>
                             <li><a href="/gallery">Gallery</a></li>
 
