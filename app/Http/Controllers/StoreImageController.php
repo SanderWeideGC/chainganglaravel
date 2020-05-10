@@ -26,9 +26,25 @@ class StoreImageController extends Controller
      $image_file = $request->user_image;
 
      $image = Image::make($image_file);
+    $imageType = $image->mime;
+    
 
+    // $im = new imagick($image);
+    // // convert to png
+    // $im->setImageFormat('jpeg');
+    // //write image on server
+    // $im->writeImage($image .".jpeg");
+    // dd($im);
+    // $im->clear();
+    // $im->destroy(); 
+
+
+    //  if($imageType == "image/jpeg"){
      Response::make($image->encode('jpeg'));
+    // } elseif($imageType == " image/png"){
+    //     Response::make($image->encode('png'));
 
+    //  }
      $form_data = array(
       'user_name'  => $request->user_name,
       'user_image' => $image
@@ -44,7 +60,6 @@ class StoreImageController extends Controller
      $image = Images::findOrFail($image_id);
 
      $image_file = Image::make($image->user_image);
-
      $response = Response::make($image_file->encode('jpeg'));
 
      $response->header('Content-Type', 'image/jpeg');
