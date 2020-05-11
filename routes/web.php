@@ -62,6 +62,11 @@ Route::get('/schedule', function () {
 });
 
 Route::get('/test', 'PostController@show');
+
+Route::get('/store_image', 'StoreImageController@index');
+Route::post('/store_image/insert_image', 'StoreImageController@insert_image');
+Route::get('/store_image/fetch_image/{id}', 'StoreImageController@fetch_image');
+
 Route::post('/blog', 'BlogController@store');
 Route::get('/blog/{post}', 'BlogController@create');
 Route::get('/blog/{post}', 'BlogController@show');
