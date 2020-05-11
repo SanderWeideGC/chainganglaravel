@@ -327,7 +327,7 @@ ol {
 /* Upload file button */
 
 input[type="file"] {
-    display: show;
+    display: none;
 }
 
 /* END Upload file button */
