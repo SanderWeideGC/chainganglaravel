@@ -549,7 +549,8 @@
 #58 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #59 {main}
 "} 
-[2020-05-08 09:12:00] local.ERROR: syntax error, unexpected 'Route' (T_STRING) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'Route' (T_STRING) at C:\\laragon\\www\\chainganglaravel\outes\\web.php:34)
+[2020-05-08 09:12:00] local.ERROR: syntax error, unexpected 'Route' (T_STRING) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'Route' (T_STRING) at C:\\laragon\\www\\chainganglaravel\
+outes\\web.php:34)
 [stacktrace]
 #0 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\laragon\\\\www\\\\...')
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('C:\\\\laragon\\\\www\\\\...')
@@ -738,7 +739,8 @@
 #0 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('blog-single', Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(131): Illuminate\\View\\FileViewFinder->find('blog-single')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(961): Illuminate\\View\\Factory->make('blog-single', Array, Array)
-#3 C:\\laragon\\www\\chainganglaravel\outes\\web.php(35): view('blog-single')
+#3 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(35): view('blog-single')
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -786,7 +788,8 @@
 #0 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('blog-single', Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(131): Illuminate\\View\\FileViewFinder->find('blog-single')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(961): Illuminate\\View\\Factory->make('blog-single', Array, Array)
-#3 C:\\laragon\\www\\chainganglaravel\outes\\web.php(31): view('blog-single')
+#3 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(31): view('blog-single')
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -829,9 +832,12 @@
 #43 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #44 {main}
 "} 
-[2020-05-08 09:46:21] local.ERROR: Undefined variable: post (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: post (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php:32)
+[2020-05-08 09:46:21] local.ERROR: Undefined variable: post (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: post (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php:32)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -935,9 +941,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 09:48:33] local.ERROR: Undefined variable: post (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: post (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php:32)
+[2020-05-08 09:48:33] local.ERROR: Undefined variable: post (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: post (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php:32)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -1079,9 +1088,12 @@
 #33 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #34 {main}
 "} 
-[2020-05-08 09:49:00] local.ERROR: Undefined variable: post (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: post (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php:32)
+[2020-05-08 09:49:00] local.ERROR: Undefined variable: post (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: post (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php:32)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -1185,7 +1197,9 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 09:49:48] local.ERROR: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')' (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')' (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php:32)
+[2020-05-08 09:49:48] local.ERROR: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')' (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')' (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php:32)
 [stacktrace]
 #0 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -1287,9 +1301,12 @@
 #46 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #47 {main}
 "} 
-[2020-05-08 09:50:21] local.ERROR: Undefined variable: post (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: post (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php:32)
+[2020-05-08 09:50:21] local.ERROR: Undefined variable: post (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: post (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php:32)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -1558,9 +1575,11 @@
 #44 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #45 {main}
 "} 
-[2020-05-08 10:29:25] local.ERROR: Use of undefined constant App - assumed 'App' (this will throw an Error in a future version of PHP) {"exception":"[object] (ErrorException(code: 0): Use of undefined constant App - assumed 'App' (this will throw an Error in a future version of PHP) at C:\\laragon\\www\\chainganglaravel\outes\\web.php:27)
+[2020-05-08 10:29:25] local.ERROR: Use of undefined constant App - assumed 'App' (this will throw an Error in a future version of PHP) {"exception":"[object] (ErrorException(code: 0): Use of undefined constant App - assumed 'App' (this will throw an Error in a future version of PHP) at C:\\laragon\\www\\chainganglaravel\
+outes\\web.php:27)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Use of undefine...', 'C:\\\\laragon\\\\www\\\\...', 27, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Use of undefine...', 'C:\\\\laragon\\\\www\\\\...', 27, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -1614,7 +1633,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -1670,7 +1690,8 @@
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#11 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#11 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -1724,7 +1745,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -1780,7 +1802,8 @@
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#11 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#11 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -1834,7 +1857,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -1890,7 +1914,8 @@
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#11 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#11 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -1944,7 +1969,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2000,7 +2026,8 @@
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#11 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#11 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2054,7 +2081,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2110,7 +2138,8 @@
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#11 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#11 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2153,7 +2182,8 @@
 #51 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #52 {main}
 "} 
-[2020-05-08 10:36:48] local.ERROR: Class 'App\blogs' not found {"exception":"[object] (Error(code: 0): Class 'App\\blogs' not found at C:\\laragon\\www\\chainganglaravel\outes\\web.php:27)
+[2020-05-08 10:36:48] local.ERROR: Class 'App\blogs' not found {"exception":"[object] (Error(code: 0): Class 'App\\blogs' not found at C:\\laragon\\www\\chainganglaravel\
+outes\\web.php:27)
 [stacktrace]
 #0 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
@@ -2208,7 +2238,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2264,7 +2295,8 @@
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#11 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#11 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2318,7 +2350,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2374,7 +2407,8 @@
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#11 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#11 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2428,7 +2462,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2484,7 +2519,8 @@
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#11 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#11 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2538,7 +2574,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2594,7 +2631,8 @@
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(539): Illuminate\\Database\\Query\\Builder->get(Array)
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(523): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php(488): Illuminate\\Database\\Eloquent\\Builder->get(Array)
-#11 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
+#11 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Eloquent\\Model::all()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2715,7 +2753,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2776,7 +2815,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2827,7 +2867,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2888,7 +2929,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -2939,7 +2981,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3000,7 +3043,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3051,7 +3095,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3112,7 +3157,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3163,7 +3209,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3224,7 +3271,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3275,7 +3323,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3336,7 +3385,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3387,7 +3437,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3448,7 +3499,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3499,7 +3551,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3552,7 +3605,8 @@
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#8 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#8 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3595,9 +3649,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 15:45:26] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:37)
+[2020-05-08 15:45:26] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:37)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -3709,7 +3766,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3762,7 +3820,8 @@
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#8 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#8 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -3805,9 +3864,11 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 15:57:49] local.ERROR: Property [title] does not exist on this collection instance. (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Property [title] does not exist on this collection instance. (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\EnumeratesValues.php:860)
+[2020-05-08 15:57:49] local.ERROR: Property [title] does not exist on this collection instance. (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Property [title] does not exist on this collection instance. (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\EnumeratesValues.php:860)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(37): Illuminate\\Support\\Collection->__get('title')
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(37): Illuminate\\Support\\Collection->__get('title')
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -4029,9 +4090,12 @@
 #54 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #55 {main}
 "} 
-[2020-05-08 15:58:50] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:37)
+[2020-05-08 15:58:50] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:37)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -4135,9 +4199,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 16:00:51] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:37)
+[2020-05-08 16:00:51] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:37)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -4241,9 +4308,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 16:06:45] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:37)
+[2020-05-08 16:06:45] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:37)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -4347,9 +4417,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 16:07:59] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:37)
+[2020-05-08 16:07:59] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:37)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -4453,9 +4526,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 16:08:08] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:37)
+[2020-05-08 16:08:08] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:37)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -4559,9 +4635,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 16:09:47] local.ERROR: Undefined variable: blog (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: blog (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:32)
+[2020-05-08 16:09:47] local.ERROR: Undefined variable: blog (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: blog (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:32)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -4665,9 +4744,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 16:10:58] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:37)
+[2020-05-08 16:10:58] local.ERROR: Undefined property: stdClass::$title (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$title (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:37)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -4771,9 +4853,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-08 16:11:25] local.ERROR: Undefined property: stdClass::$date (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$date (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:38)
+[2020-05-08 16:11:25] local.ERROR: Undefined property: stdClass::$date (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined property: stdClass::$date (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:38)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(38): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 38, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(38): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined prope...', 'C:\\\\laragon\\\\www\\\\...', 38, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -4885,7 +4970,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -4938,7 +5024,8 @@
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#8 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#8 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -5469,7 +5556,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -5530,7 +5618,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -5701,7 +5790,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -5762,7 +5852,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -5813,7 +5904,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -5874,7 +5966,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -5925,7 +6018,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -5986,7 +6080,8 @@
 #13 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #14 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #15 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#16 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#16 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #19 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -6141,16 +6236,20 @@
 #52 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #53 {main}
 "} 
-[2020-05-09 05:19:12] local.ERROR: Use of undefined constant asset - assumed 'asset' (this will throw an Error in a future version of PHP) (View: C:\laragon\www\chainganglaravel\resources\views\layout.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Use of undefined constant asset - assumed 'asset' (this will throw an Error in a future version of PHP) (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\layout.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/layout.blade.php:15)
+[2020-05-09 05:19:12] local.ERROR: Use of undefined constant asset - assumed 'asset' (this will throw an Error in a future version of PHP) (View: C:\laragon\www\chainganglaravel\resources\views\layout.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Use of undefined constant asset - assumed 'asset' (this will throw an Error in a future version of PHP) (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\layout.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/layout.blade.php:15)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/layout.blade.php(15): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Use of undefine...', 'C:\\\\laragon\\\\www\\\\...', 15, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/layout.blade.php(15): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'Use of undefine...', 'C:\\\\laragon\\\\www\\\\...', 15, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(139): Facade\\Ignition\\Views\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(122): Illuminate\\View\\View->getContents()
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(91): Illuminate\\View\\View->renderContents()
-#7 C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php(63): Illuminate\\View\\View->render()
+#7 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php(63): Illuminate\\View\\View->render()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -6308,9 +6407,12 @@
 #42 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #43 {main}
 "} 
-[2020-05-09 06:01:26] local.ERROR: Undefined variable: post (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: post (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php:29)
+[2020-05-09 06:01:26] local.ERROR: Undefined variable: post (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: post (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php:29)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php(29): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 29, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php(29): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 29, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -6557,7 +6659,8 @@
 #42 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #43 {main}
 "} 
-[2020-05-09 06:06:21] local.ERROR: syntax error, unexpected 'Route' (T_STRING) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'Route' (T_STRING) at C:\\laragon\\www\\chainganglaravel\outes\\web.php:69)
+[2020-05-09 06:06:21] local.ERROR: syntax error, unexpected 'Route' (T_STRING) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'Route' (T_STRING) at C:\\laragon\\www\\chainganglaravel\
+outes\\web.php:69)
 [stacktrace]
 #0 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\laragon\\\\www\\\\...')
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('C:\\\\laragon\\\\www\\\\...')
@@ -6591,7 +6694,8 @@
 #29 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #30 {main}
 "} 
-[2020-05-09 06:07:04] local.ERROR: syntax error, unexpected 'Route' (T_STRING) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'Route' (T_STRING) at C:\\laragon\\www\\chainganglaravel\outes\\web.php:69)
+[2020-05-09 06:07:04] local.ERROR: syntax error, unexpected 'Route' (T_STRING) {"exception":"[object] (ParseError(code: 0): syntax error, unexpected 'Route' (T_STRING) at C:\\laragon\\www\\chainganglaravel\
+outes\\web.php:69)
 [stacktrace]
 #0 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(417): Illuminate\\Routing\\RouteFileRegistrar->register('C:\\\\laragon\\\\www\\\\...')
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(374): Illuminate\\Routing\\Router->loadRoutes('C:\\\\laragon\\\\www\\\\...')
@@ -7023,7 +7127,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -7076,7 +7181,8 @@
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#8 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#8 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -7119,9 +7225,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-09 06:22:34] local.ERROR: Undefined variable: blog (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: blog (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:32)
+[2020-05-09 06:22:34] local.ERROR: Undefined variable: blog (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: blog (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:32)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -7233,7 +7342,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -7286,7 +7396,8 @@
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#8 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#8 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -7337,7 +7448,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -7390,7 +7502,8 @@
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#8 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#8 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -7441,7 +7554,8 @@
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#6 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#6 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -7494,7 +7608,8 @@
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2166): Illuminate\\Database\\Query\\Builder->runSelect()
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2657): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2167): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
-#8 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
+#8 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->get()
 #9 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -8623,7 +8738,8 @@
 [stacktrace]
 #0 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(23): Illuminate\\Support\\Collection->get()
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pagination\\AbstractPaginator.php(689): Illuminate\\Pagination\\AbstractPaginator->forwardCallTo(Object(Illuminate\\Support\\Collection), 'get', Array)
-#2 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Pagination\\AbstractPaginator->__call('get', Array)
+#2 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Pagination\\AbstractPaginator->__call('get', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -8670,7 +8786,8 @@
 [stacktrace]
 #0 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(23): Illuminate\\Support\\Collection->get()
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pagination\\AbstractPaginator.php(689): Illuminate\\Pagination\\AbstractPaginator->forwardCallTo(Object(Illuminate\\Support\\Collection), 'get', Array)
-#2 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Pagination\\AbstractPaginator->__call('get', Array)
+#2 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Pagination\\AbstractPaginator->__call('get', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -8717,7 +8834,8 @@
 [stacktrace]
 #0 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php(23): Illuminate\\Support\\Collection->get()
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pagination\\AbstractPaginator.php(689): Illuminate\\Pagination\\AbstractPaginator->forwardCallTo(Object(Illuminate\\Support\\Collection), 'get', Array)
-#2 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Pagination\\AbstractPaginator->__call('get', Array)
+#2 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Pagination\\AbstractPaginator->__call('get', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #4 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #5 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -8999,7 +9117,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2273): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2236): Illuminate\\Database\\Query\\Builder->runPaginationCountQuery(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2195): Illuminate\\Database\\Query\\Builder->getCountForPagination()
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -9063,7 +9182,8 @@
 #16 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2273): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2236): Illuminate\\Database\\Query\\Builder->runPaginationCountQuery(Array)
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2195): Illuminate\\Database\\Query\\Builder->getCountForPagination()
-#19 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
+#19 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
 #20 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #21 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #22 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -9117,7 +9237,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2273): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2236): Illuminate\\Database\\Query\\Builder->runPaginationCountQuery(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2195): Illuminate\\Database\\Query\\Builder->getCountForPagination()
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -9181,7 +9302,8 @@
 #16 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2273): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2236): Illuminate\\Database\\Query\\Builder->runPaginationCountQuery(Array)
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2195): Illuminate\\Database\\Query\\Builder->getCountForPagination()
-#19 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
+#19 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
 #20 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #21 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #22 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -9427,7 +9549,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2273): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2236): Illuminate\\Database\\Query\\Builder->runPaginationCountQuery(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2195): Illuminate\\Database\\Query\\Builder->getCountForPagination()
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -9491,7 +9614,8 @@
 #16 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2273): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2236): Illuminate\\Database\\Query\\Builder->runPaginationCountQuery(Array)
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2195): Illuminate\\Database\\Query\\Builder->getCountForPagination()
-#19 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
+#19 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
 #20 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #21 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #22 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -9545,7 +9669,8 @@
 #6 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2273): Illuminate\\Database\\Query\\Builder->get()
 #7 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2236): Illuminate\\Database\\Query\\Builder->runPaginationCountQuery(Array)
 #8 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2195): Illuminate\\Database\\Query\\Builder->getCountForPagination()
-#9 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
+#9 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
 #10 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #11 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #12 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -9609,7 +9734,8 @@
 #16 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2273): Illuminate\\Database\\Query\\Builder->get()
 #17 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2236): Illuminate\\Database\\Query\\Builder->runPaginationCountQuery(Array)
 #18 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2195): Illuminate\\Database\\Query\\Builder->getCountForPagination()
-#19 C:\\laragon\\www\\chainganglaravel\outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
+#19 C:\\laragon\\www\\chainganglaravel\
+outes\\web.php(27): Illuminate\\Database\\Query\\Builder->paginate(6)
 #20 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(225): Illuminate\\Routing\\RouteFileRegistrar->{closure}()
 #21 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(199): Illuminate\\Routing\\Route->runCallable()
 #22 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(685): Illuminate\\Routing\\Route->run()
@@ -9824,9 +9950,12 @@
 #43 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #44 {main}
 "} 
-[2020-05-12 08:44:59] local.ERROR: Undefined variable: blog (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: blog (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php:32)
+[2020-05-12 08:44:59] local.ERROR: Undefined variable: blog (View: C:\laragon\www\chainganglaravel\resources\views\blog.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: blog (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php:32)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog.blade.php(32): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 32, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
@@ -9930,9 +10059,12 @@
 #48 C:\\laragon\\www\\chainganglaravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #49 {main}
 "} 
-[2020-05-12 09:04:07] local.ERROR: Undefined variable: data (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: data (View: C:\\laragon\\www\\chainganglaravel\esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php:37)
+[2020-05-12 09:04:07] local.ERROR: Undefined variable: data (View: C:\laragon\www\chainganglaravel\resources\views\blog-post.blade.php) {"exception":"[object] (Facade\\Ignition\\Exceptions\\ViewException(code: 0): Undefined variable: data (View: C:\\laragon\\www\\chainganglaravel\
+esources\\views\\blog-post.blade.php) at C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php:37)
 [stacktrace]
-#0 C:\\laragon\\www\\chainganglaravel\esources\\views/blog-post.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
+#0 C:\\laragon\\www\\chainganglaravel\
+esources\\views/blog-post.blade.php(37): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Undefined varia...', 'C:\\\\laragon\\\\www\\\\...', 37, Array)
 #1 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(41): include('C:\\\\laragon\\\\www\\\\...')
 #2 C:\\laragon\\www\\chainganglaravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(57): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
 #3 C:\\laragon\\www\\chainganglaravel\\vendor\\facade\\ignition\\src\\Views\\Engines\\CompilerEngine.php(37): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
