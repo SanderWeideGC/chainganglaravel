@@ -60,7 +60,7 @@
 
     <div class="panel panel-default">
          <div class="panel-heading">
-             <h3 class="panel-title">User Form</h3>
+             <h3 class="panel-title"></h3>
          </div>
          <div class="panel-body">
          <br />
@@ -95,7 +95,7 @@
      </div>
      <div class="panel panel-default">
          <div class="panel-heading">
-             <h3 class="panel-title">User Data</h3>
+             <h3 class="panel-title"></h3>
          </div>
          <div class="panel-body">
          <div class="table-responsive">
