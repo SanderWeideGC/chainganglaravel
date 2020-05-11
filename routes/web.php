@@ -21,9 +21,21 @@ Route::get('/about-us', function () {
     return view('about-us');
 });
 
+//BLOG ZELIM
+
 Route::get('/blog', function () {
-    return view('blog');
+    $blog = DB::table('blog')->orderBy('id','desc')->paginate(6);
+
+    return view('blog', ['blog' => $blog]);
 });
+
+Route::get('/blog-post', function () {
+    return view('blog-post');
+});
+
+
+
+//EINDE BLOG ZELIM
 
 Route::get('/blog-single', function () {
     return view('blog-single');
@@ -35,10 +47,6 @@ Route::get('/bmi', function () {
 
 Route::get('/contact', function () {
     return view('contact');
-});
-
-Route::get('/forum', function () {
-    return view('forum');
 });
 
 Route::get('/gallery', function () {
@@ -56,7 +64,9 @@ Route::get('/schedule', function () {
 Route::get('/test', 'PostController@show');
 
 Route::get('store_image', 'StoreImageController@index');
-
 Route::post('store_image/insert_image', 'StoreImageController@insert_image');
-
 Route::get('store_image/fetch_image/{id}', 'StoreImageController@fetch_image');
+
+Route::post('/blog', 'BlogController@store');
+Route::get('/blog/{post}', 'BlogController@create');
+Route::get('/blog/{post}', 'BlogController@show');

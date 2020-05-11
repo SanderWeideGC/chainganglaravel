@@ -12,15 +12,15 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="icon" href="/img/favicon.ico">
 </head>
 
 <body>
@@ -34,7 +34,7 @@
     <div class="container-fluid">
         <div class="logo">
             <a href="./">
-                <img src="img/logo.png" alt="">
+                <img src="/img/logo.png" alt="">
 
             </a>
         </div>
@@ -43,13 +43,13 @@
                 <div class="nav-menu">
                     <nav class="mainmenu mobile-menu">
                         <ul>
-                            <li><a href="./">Home</a></li>
-                            <li><a href="./about-us">About us</a></li>
-                            <li><a href="./schedule">Schedule</a></li>
-                            <li><a href="./recipes">Recipes</a></li>
-                            <li><a href="./forum">Forum</a></li>
-                            <li><a href="./blog">Blog</a></li>
-                            <li><a href="./gallery">Gallery</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about-us">About us</a></li>
+                            <li><a href="/schedule">Schedule</a></li>
+                            <li><a href="/recipes">Recipes</a></li>
+                            <li><a href="/forum">Forum</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="/gallery">Gallery</a></li>
 
                     </ul>
                 </nav>
@@ -67,12 +67,66 @@
 <section class="cta-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="cta-text">
-                    <h3>Get Started Today</h3>
-                    <p>New student special! 10% off for our new member!</p>
+            <div class="col-lg-6">
+                <div class="about-text">
+                    <h2>Calculate your BMI</h2>
+                    <p class="long-details">
+                        Our BMI calculator makes it a piece of cake for
+                        you to find your number. However, please
+                        remember that BMI is a rough estimation. The
+                        result can be somewhat misleading for
+                        individuals who are well muscled (such as body
+                        builders), or for those who have lost a
+                        significant amount of muscle (such as the
+                        elderly).
+                    </p>
                 </div>
-                <a href="contact" class="primary-btn cta-btn">book now</a>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-form">
+                    <h4></h4>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <input
+                                    id="heightBMI"
+                                    type="number"
+                                    placeholder="Height in meters"
+                                />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <input
+                                    id="weightBMI"
+                                    type="number"
+                                    placeholder="Weight in Kg"
+                                />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p style="color: white">
+                                    Normal (18,5 - 24,9)
+                                </p>
+                                <p style="color: white">
+                                    Your BMI:
+                                    <span id="resultBMI"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <a
+                                    href="#"
+                                    class="primary-btn about-btn"
+                                    id="calculateBMI"
+                                    >Calculate</a
+                                >
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -87,7 +141,7 @@
             <div class="col-lg-3">
                 <div class="footer-logo-item">
                     <div class="f-logo">
-                        <a href="#"><img src="img/logo.png" alt=""></a>
+                        <a href="#"><img src="/img/logo.png" alt=""></a>
                     </div>
                     <p>Despite growth of the Internet over the past seven years, the use of toll-free phone numbers
                         in television advertising continues.</p>
@@ -144,6 +198,7 @@
 <!-- Footer Section End -->
 
 <!-- Js Plugins -->
+
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
@@ -153,6 +208,8 @@
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/BMI-calculator.js"></script>
+
 <?php echo $__env->yieldContent("script"); ?>
 </body>
 
