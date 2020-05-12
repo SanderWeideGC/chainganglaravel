@@ -70,3 +70,15 @@ Route::get('/store_image/fetch_image/{id}', 'StoreImageController@fetch_image');
 Route::post('/blog', 'BlogController@store');
 Route::get('/blog/{post}', 'BlogController@create');
 Route::get('/blog/{post}', 'BlogController@show');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
