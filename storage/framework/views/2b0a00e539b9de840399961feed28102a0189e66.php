@@ -1,4 +1,25 @@
-<?php $__env->startSection('content'); ?>
+
+
+<?php $__env->startSection('body'); ?>
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg spad" data-setbg="img/about-bread.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-text">
+                    <h2>Register</h2>
+                    <div class="breadcrumb-controls">
+                        <a href="/"><i class="fa fa-home"></i> Home</a>
+                        <span>Register</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb End -->
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -117,4 +138,4 @@ unset($__errorArgs, $__bag); ?>
 </div>
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\chainganglaravel\resources\views/auth/register.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\chainganglaravel\resources\views/auth/register.blade.php ENDPATH**/ ?>

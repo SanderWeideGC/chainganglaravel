@@ -1,6 +1,25 @@
 @extends('layout')
 
 @section('body')
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg spad" data-setbg="img/about-bread.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-text">
+                    <h2>Login</h2>
+                    <div class="breadcrumb-controls">
+                        <a href="/"><i class="fa fa-home"></i> Home</a>
+                        <span>Login</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb End -->
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
