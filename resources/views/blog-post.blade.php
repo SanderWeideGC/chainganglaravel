@@ -34,7 +34,7 @@
             </div>
             <div class="col-lg-3 offset-lg-1">
                 <div style="">
-                    <img src="/img/blog-single-1.jpg" style="
+                    <img src="/uploads/blog/{{$post->image}}" style="
                     position: absolute;
                     margin: auto;
                     top: 0;

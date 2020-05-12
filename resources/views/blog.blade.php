@@ -33,7 +33,7 @@
                     <ul class="blog-ul"> 
                         <li class="blog-li"> 
                             <div class="blog-post">
-                                <img src="img/blog-single-1.jpg"  height="200">
+                                <img src=c  height="200">
                                 <a href="/blog/{{$data->id}}"><h4 class="blog-h4">{{$data->titel}}</h4></a>
                                 <p>{{$data->datum}}</p>
                             </div>
@@ -46,11 +46,11 @@
             <div class="col-lg-3 offset-lg-1">
                 <div class="contact-form">
                     <h4>Post Blog</h4>
-                    <form method="POST" action="/blog">
+                    <form enctype="multipart/form-data" method="POST" action="/blog">
                     @csrf
                         <div class="row">
                             <div class="col-lg-12">
-                                
+                                <p class="help is-danger">{{ $errors->first('titel') }}</p>
                                 <input type="text" name="titel" id="titel" placeholder="Title" required>
                             </div>
                             <div class="col-lg-12">
