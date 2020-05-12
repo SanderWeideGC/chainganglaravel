@@ -36,6 +36,12 @@ class BlogController extends Controller
 
     public function store()
     {
+        request()->validate([
+            'titel' => ['required', 'max:100'],
+            'body' => ['required'],
+            'image' => ['required']
+        ]);
+
         $blog = new blog();
 
         $blog->titel = request('titel');

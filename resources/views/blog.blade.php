@@ -50,16 +50,17 @@
                     @csrf
                         <div class="row">
                             <div class="col-lg-12">
-                                <input type="text" name="titel" id="titel" placeholder="Title">
+                                
+                                <input type="text" name="titel" id="titel" placeholder="Title" required>
                             </div>
                             <div class="col-lg-12">
                                 <label class="c-btn" style="margin-bottom: 30px;">
-                                    <input type="file" name="image" id="image" accept="image/png, image/jpeg">
+                                    <input type="file" name="image" id="image" accept="image/png, image/jpeg" required>
                                     Image
                                 </label>
                             </div>
                             <div class="col-lg-12">
-                                <textarea placeholder="Text" name="body" id="body"></textarea>
+                                <textarea placeholder="Text" name="body" id="body" required></textarea>
                                 <button type="submit" class="c-btn">Post BLog</button>
                             </div>
                         </div>
