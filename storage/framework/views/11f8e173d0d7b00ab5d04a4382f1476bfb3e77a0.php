@@ -11,7 +11,7 @@
                     <h2>Blogs</h2>
                     <div class="breadcrumb-controls">
                         <a href="/"><i class="fa fa-home"></i> Home</a>
-                        <span>Blog</span>
+                        <a href="/blog">Blog</a> <span> <?php echo e($post->titel); ?> </span>
                     </div>
                 </div>
             </div>

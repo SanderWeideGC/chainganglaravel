@@ -33,9 +33,11 @@
                     <ul class="blog-ul"> 
                         <li class="blog-li"> 
                             <div class="blog-post">
+                            <a href="/blog/<?php echo e($data->id); ?>">
                                 <img src="/uploads/blog/<?php echo e($data->image); ?>"  height="200">
-                                <a href="/blog/<?php echo e($data->id); ?>"><h4 class="blog-h4"><?php echo e($data->titel); ?></h4></a>
+                                <h4 class="blog-h4"><?php echo e($data->titel); ?></h4>
                                 <p><?php echo e($data->datum); ?></p>
+                                </a>
                             </div>
                         </li>
                     </ul>
