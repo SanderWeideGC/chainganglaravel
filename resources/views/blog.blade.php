@@ -33,9 +33,11 @@
                     <ul class="blog-ul"> 
                         <li class="blog-li"> 
                             <div class="blog-post">
+                            <a href="/blog/{{$data->id}}">
                                 <img src="/uploads/blog/{{$data->image}}"  height="200">
-                                <a href="/blog/{{$data->id}}"><h4 class="blog-h4">{{$data->titel}}</h4></a>
+                                <h4 class="blog-h4">{{$data->titel}}</h4>
                                 <p>{{$data->datum}}</p>
+                                </a>
                             </div>
                         </li>
                     </ul>
