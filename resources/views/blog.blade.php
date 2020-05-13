@@ -33,9 +33,11 @@
                     <ul class="blog-ul"> 
                         <li class="blog-li"> 
                             <div class="blog-post">
-                                <img src="img/blog-single-1.jpg"  height="200">
-                                <a href="/blog/{{$data->id}}"><h4 class="blog-h4">{{$data->titel}}</h4></a>
+                            <a href="/blog/{{$data->id}}">
+                                <img src="/uploads/blog/{{$data->image}}"  height="200">
+                                <h4 class="blog-h4">{{$data->titel}}</h4>
                                 <p>{{$data->datum}}</p>
+                                </a>
                             </div>
                         </li>
                     </ul>
@@ -46,20 +48,21 @@
             <div class="col-lg-3 offset-lg-1">
                 <div class="contact-form">
                     <h4>Post Blog</h4>
-                    <form method="POST" action="/blog">
+                    <form enctype="multipart/form-data" method="POST" action="/blog">
                     @csrf
                         <div class="row">
                             <div class="col-lg-12">
-                                <input type="text" name="titel" id="titel" placeholder="Title">
+                                <p class="help is-danger">{{ $errors->first('titel') }}</p>
+                                <input type="text" name="titel" id="titel" placeholder="Title" required>
                             </div>
                             <div class="col-lg-12">
                                 <label class="c-btn" style="margin-bottom: 30px;">
-                                    <input type="file" name="image" id="image" accept="image/png, image/jpeg">
+                                    <input type="file" name="image" id="image" accept="image/png, image/jpeg" required>
                                     Image
                                 </label>
                             </div>
                             <div class="col-lg-12">
-                                <textarea placeholder="Text" name="body" id="body"></textarea>
+                                <textarea placeholder="Text" name="body" id="body" required></textarea>
                                 <button type="submit" class="c-btn">Post BLog</button>
                             </div>
                         </div>

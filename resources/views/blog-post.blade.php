@@ -11,7 +11,7 @@
                     <h2>Blogs</h2>
                     <div class="breadcrumb-controls">
                         <a href="/"><i class="fa fa-home"></i> Home</a>
-                        <span>Blog</span>
+                        <a href="/blog">Blog</a> <span> {{$post->titel}} </span>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
             </div>
             <div class="col-lg-3 offset-lg-1">
                 <div style="">
-                    <img src="/img/blog-single-1.jpg" style="
+                    <img src="/uploads/blog/{{$post->image}}" style="
                     position: absolute;
                     margin: auto;
                     top: 0;

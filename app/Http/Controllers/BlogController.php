@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\blog;
+use Image;
 
 class BlogController extends Controller
 {
@@ -34,13 +35,26 @@ class BlogController extends Controller
         ]);
     }
 
-    public function store()
+    public function store(Request $request)
     {
+        request()->validate([
+            'titel' => ['required', 'max:100'],
+            'body' => ['required'],
+            'image' => ['required']
+        ]);
+
         $blog = new blog();
 
-        $blog->titel = request('titel');
-        $blog->body = request('body');
-        $blog->image = request('image');
+        $blog->titel = $request->input('titel');
+        $blog->body = $request->input('body');
+
+        if ($request->hasFile('image')){
+            $file = $request->file('image');
+            $extension = $file->getClientOriginalExtension();
+            $filename = time() . '.' . $extension;
+            Image::make($file)->save( public_path('/uploads/blog/' . $filename));
+            $blog->image = $filename;
+        }
 
         $blog->save();
 
