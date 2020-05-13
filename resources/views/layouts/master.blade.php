@@ -61,7 +61,7 @@
             <li>
                 <a href="./users">
                     <i class="now-ui-icons users_single-02"></i>
-                    <p>User Profile</p>
+                    <p>User</p>
                 </a>
             </li>
             <li>
