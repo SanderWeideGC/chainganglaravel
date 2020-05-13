@@ -82,3 +82,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => ['auth', 'admin']], function() {
+    Route::get('/dashboard', function() {
+        return view('admin.dashboard');
+    });
+    Route::get('/users', function() {
+        return view('admin.users');
+    });
+    Route::get('/recipesd', function() {
+        return view('admin.recipes');
+    });
+});
