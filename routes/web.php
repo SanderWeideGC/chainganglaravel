@@ -90,7 +90,8 @@ Route::group(['middleware' => ['auth', 'admin']], function() {
         return view('admin.dashboard', ['blog' => $blog]);
     });
     Route::get('/users', function() {
-        return view('admin.users');
+        $users = DB::table('users')->get();
+        return view('admin.users', ['users' => $users]);
     });
     Route::get('/recipesd', function() {
         return view('admin.recipes');
@@ -102,4 +103,11 @@ Route::get('/dashboard/create', 'BlogController@created');
 Route::get('/dashboard/edit/{blog}', 'BlogController@edit');
 Route::put('/dashboard/{blog}', 'BlogController@update');
 Route::delete('/{blog}', 'BlogController@destroy');
+});
+
+Route::group(['middleware' => ['auth', 'admin']], function() {
+Route::get('/users/create', 'UserController@created');
+Route::get('/users/edit/{user}', 'UserController@edit');
+Route::put('/users/{user}', 'UserController@update');
+Route::delete('/{user}', 'UserController@destroy');
 });
