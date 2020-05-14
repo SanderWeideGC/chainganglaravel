@@ -33,7 +33,7 @@
           border-radius: 5px;
           "
           >
-            Nieuwe Blog
+            New Blog
           </h4>
         </a>
         </div>

@@ -55,7 +55,7 @@
                             </div>
                             <div>
                                 <label style="margin: 20px 0 20px 0;">
-                                    <input type="file" name="image" id="image" accept="image/png, image/jpeg" value="{{ $blog->image }}" required>
+                                    <input type="file" name="image" id="image" accept="image/png, image/jpeg" value="{{ $blog->image }}">
                                     Image
                                 </label>
                             </div>
