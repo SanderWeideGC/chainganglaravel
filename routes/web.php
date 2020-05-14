@@ -68,7 +68,7 @@ Route::post('/store_image/insert_image', 'StoreImageController@insert_image');
 Route::get('/store_image/fetch_image/{id}', 'StoreImageController@fetch_image');
 
 Route::get('/recipes', function () {
-    $foto = DB::table('foto')->orderBy('id','desc')->paginate(6);
+    $foto = DB::table('foto');
 
     return view('recipes', ['foto' => $foto]);
 });

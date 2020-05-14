@@ -1,5 +1,4 @@
 
-
 @extends('layout')
 
 @section('body')
@@ -78,4 +77,6 @@
 <!-- Gallery Section End -->
 
 @endsection
+
+
 
