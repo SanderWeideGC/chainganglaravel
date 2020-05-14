@@ -67,9 +67,24 @@ Route::get('/store_image', 'StoreImageController@index');
 Route::post('/store_image/insert_image', 'StoreImageController@insert_image');
 Route::get('/store_image/fetch_image/{id}', 'StoreImageController@fetch_image');
 
+Route::get('/recipes', function () {
+    $foto = DB::table('foto')->orderBy('id','desc')->paginate(6);
+
+    return view('recipes', ['foto' => $foto]);
+});
+
+Route::get('recipes-post', function () {
+    return view('recipes-post');
+});
+
+
 Route::post('/blog', 'BlogController@store');
 Route::get('/blog/{post}', 'BlogController@create');
 Route::get('/blog/{post}', 'BlogController@show');
+
+Route::post('/recipes', 'FotoController@store');
+Route::get('/recipes/{post}', 'FotoController@create');
+Route::get('/recipes/{post}', 'FotoController@show');
 
 Auth::routes();
 
