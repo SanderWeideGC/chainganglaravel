@@ -52,7 +52,6 @@
                     <?php echo csrf_field(); ?>
                         <div class="row">
                             <div class="col-lg-12">
-                                <p class="help is-danger"><?php echo e($errors->first('titel')); ?></p>
                                 <input type="text" name="titel" id="titel" placeholder="Title" required>
                             </div>
                             <div class="col-lg-12">
