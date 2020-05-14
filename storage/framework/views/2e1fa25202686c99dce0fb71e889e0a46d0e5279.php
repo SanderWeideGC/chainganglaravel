@@ -22,7 +22,7 @@
 <section class="contact-section spad">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 ">
+            <div class="col-lg-8">
                 <div class="contact-info">
                     <h4>Recipes Posts</h4>
                 </div>
@@ -73,6 +73,7 @@
 </section>
 <!-- Gallery Section End -->
 
-
 <?php $__env->stopSection(); ?>
+
+
 <?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/lucas/code/chainganglaravel/resources/views/recipes.blade.php ENDPATH**/ ?>
