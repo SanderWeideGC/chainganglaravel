@@ -52,7 +52,6 @@
                     @csrf
                         <div class="row">
                             <div class="col-lg-12">
-                                <p class="help is-danger">{{ $errors->first('titel') }}</p>
                                 <input type="text" name="titel" id="titel" placeholder="Title" required>
                             </div>
                             <div class="col-lg-12">

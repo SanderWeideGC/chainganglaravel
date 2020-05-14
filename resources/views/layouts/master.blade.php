@@ -30,10 +30,10 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- CSS Files -->
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="../assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <link href="/assets/demo/demo.css" rel="stylesheet" />
 </head>
 
 <body class="">
@@ -53,19 +53,19 @@
             <div class="sidebar-wrapper" id="sidebar-wrapper">
                 <ul class="nav">
                     <li>
-                        <a href="./dashboard">
+                        <a href="/dashboard">
                         <i class="now-ui-icons design_app"></i>
                     <p>Blogs</p>
                 </a>
             </li>
             <li>
-                <a href="./users">
+                <a href="/users">
                     <i class="now-ui-icons users_single-02"></i>
                     <p>User</p>
                 </a>
             </li>
             <li>
-              <a href="./recipesd">
+              <a href="/recipesd">
                 <i class="now-ui-icons location_map-big"></i>
                 <p>Recipes</p>
               </a>
