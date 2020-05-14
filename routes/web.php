@@ -53,10 +53,6 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
-Route::get('/recipes', function () {
-    return view('recipes');
-});
-
 Route::get('/schedule', function () {
     return view('schedule');
 });
@@ -68,8 +64,7 @@ Route::post('/store_image/insert_image', 'StoreImageController@insert_image');
 Route::get('/store_image/fetch_image/{id}', 'StoreImageController@fetch_image');
 
 Route::get('/recipes', function () {
-    $foto = DB::table('foto');
-
+    $foto = DB::table('foto')->get();
     return view('recipes', ['foto' => $foto]);
 });
 
