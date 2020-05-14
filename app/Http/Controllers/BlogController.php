@@ -57,7 +57,7 @@ class BlogController extends Controller
             $file = $request->file('image');
             $extension = $file->getClientOriginalExtension();
             $filename = time() . '.' . $extension;
-            Image::make($file)->save( public_path('/../../uploads/blog/' . $filename));
+            Image::make($file)->save( public_path('/uploads/blog/' . $filename));
             $blog->image = $filename;
         }
 
