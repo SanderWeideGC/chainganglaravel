@@ -58,7 +58,7 @@
                     <a href="/users/edit/{{$user->id}}">Edit</a>
                   </td>
                   <td>
-                  <form method="POST" action="{{$user->id}}" >
+                  <form method="POST" action="ud/{{$user->id}}" >
 					          @csrf
             		    @method('DELETE')
 						        <button type="submit" style="border:none"><i class="fas fa-trash-alt"></i>
