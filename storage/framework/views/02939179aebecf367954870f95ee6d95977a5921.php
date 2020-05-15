@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FITTY</title>
-
+    <script src="<?php echo e(asset('js/app.js')); ?>" defer></script>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -55,6 +55,31 @@
             </div>
         </div>
         <div id="mobile-menu-wrap"></div>
+    </div>
+    <div class="float-right">
+                         
+                        <!-- Authentication Links -->
+                        <?php if(auth()->guard()->guest()): ?>
+                                <a class="btn btn-success" href="<?php echo e(route('login')); ?>"><?php echo e(__('Login')); ?></a>
+                            <?php if(Route::has('register')): ?>
+                                    <a class="btn btn-info" href="<?php echo e(route('register')); ?>"><?php echo e(__('Register')); ?></a>
+                            <?php endif; ?>
+                        <?php else: ?>
+                                    <?php if(Auth::user()->usertype == 'admin'): ?>
+                                        <a class="btn btn-success" href="/dashboard">Dashboard</a>
+                                    <?php endif; ?>
+                                    <a class="btn btn-warning" href="<?php echo e(route('logout')); ?>"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        <?php echo e(__('Logout')); ?>
+
+                                    </a>
+                                    
+
+                                    <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" style="display: none;">
+                                        <?php echo csrf_field(); ?>
+                                    </form>
+                        <?php endif; ?>
     </div>
 </header>
 <!-- Header End -->

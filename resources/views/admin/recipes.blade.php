@@ -4,9 +4,24 @@
 <div class="row">
     <div class="col-md-12">
       <div class="card">
-        <div class="card-header">
+        
+        <div class="card-header" 
+          style="
+            width: 50%;
+            float: left;
+          "
+        >
           <h4 class="card-title"> Recipes</h4>
         </div>
+        
+        <div class="card-header" 
+          style="
+            width: 50%;
+            float: right;
+          "
+        >
+        </div>
+
         <div class="card-body">
           <div class="table-responsive">
             <table class="table">
@@ -15,36 +30,43 @@
                   ID
                 </th>
                 <th>
-                  Name
+                  Gerecht
                 </th>
                 <th>
-                  Type
+                  Recept
                 </th>
                 <th>
                   Image
                 </th>
-                <th>
-                  Date
-                </th>
               </thead>
               <tbody>
+              @foreach($recipes as $key => $recipe)
                 <tr>
                   <td>
-                    1
+                    {{$recipe->id}}
                   </td>
                   <td>
-                    omin goeie lasagne
+                    {{$recipe->titel}}
                   </td>
                   <td>
-                    gwn italia
+                    {{$recipe->body}}
                   </td>
                   <td>
-                    1589274529.jpg
+                    {{$recipe->image}}
                   </td>
                   <td>
-                    2020-05-12 11:08:50
+                    <a href="/recipesd/edit/{{$recipe->id}}">Edit</a>
+                  </td>
+                  <td>
+                  <form method="POST" action="rd/{{$recipe->id}}" >
+					          @csrf
+            		    @method('DELETE')
+						        <button type="submit" style="border:none"><i class="fas fa-trash-alt"></i>
+					          </button>
+					          </form>
                   </td>
                 </tr>
+              @endforeach
               </tbody>
             </table>
           </div>

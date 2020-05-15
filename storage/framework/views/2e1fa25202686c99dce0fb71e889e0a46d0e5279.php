@@ -19,151 +19,63 @@
 
         
 <!-- Gallery Section Begin -->
-<section class="gallery-section spad">
+<section class="contact-section spad">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="gallery-controls">
-                    <ul>
-                        <li class="active" data-filter="*">All RECIPES</li>
-                        <li data-filter=".fruit">Fruit</li>
-                        <li data-filter=".vegetables">Vegetables</li>
-                        <li data-filter=".meals">Meals</li>
+            <div class="col-lg-8">
+                <div class="contact-info">
+                    <h4>Recipes Posts</h4>
+                </div>
+                <div>
+                <?php $__currentLoopData = $foto; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $data): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <ul class="gallery-ul"> 
+                        <li class="gallery-li"> 
+                            <div class="gallery-post">
+                            <a href="/recipes/<?php echo e($data->id); ?>">
+                                <img src="/uploads/recipes/<?php echo e($data->image); ?>"  height="200">
+                                <h4 class="gallery-h4"><?php echo e($data->titel); ?></h4>
+                                <p><?php echo e($data->datum); ?></p>
+                                </a>
+                            </div>
+                        </li>
                     </ul>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                </div>
+                
+            </div>
+            <div class="col-lg-3 offset-lg-1">
+                <div class="contact-form">
+                    <h4>Post recipes</h4>
+                    <form enctype="multipart/form-data" method="POST" action="/recipes">
+                    <?php echo csrf_field(); ?>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <p class="help is-danger"><?php echo e($errors->first('titel')); ?></p>
+                                <input type="text" name="titel" id="titel" placeholder="Title" required>
+                            </div>
+                            <div class="col-lg-12">
+                                <label class="c-btn" style="margin-bottom: 30px;">
+                                    <input type="file" name="image" id="image" accept="image/png, image/jpeg" required>
+                                    Image
+                                </label>
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea placeholder="Text" name="body" id="body" required></textarea>
+                                <button type="submit" class="c-btn">Post recipes</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </div>
-        <div class="row gallery-filter">
-            <div class="col-lg-4 col-sm-6 mix fruit">
-                <div class="gallery-item">
-                    <img src="img/recipes/gallery-1.jpg" alt="">
-                    <div class="gi-hover-warp">
-                        <div class="gi-hover">
-                            <a href="img/recipes/gallery-1.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
-                            <a href="#"><i class="fa fa-chain"></i></a>
-                            <h6>Time to Try a Healthy Meal <span>Fruit, Vegetables, Meat</span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mix meals">
-                <div class="gallery-item">
-                    <img src="img/recipes/gallery-2.jpg" alt="">
-                    <div class="gi-hover-warp">
-                        <div class="gi-hover">
-                            <a href="img/recipes/gallery-2.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
-                            <a href="#"><i class="fa fa-chain"></i></a>
-                            <h6>Time to Try a Healthy Meal <span>Fruit, Vegetables, Meat</span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mix meals">
-                <div class="gallery-item">
-                    <img src="img/recipes/gallery-3.jpg" alt="">
-                    <div class="gi-hover-warp">
-                        <div class="gi-hover">
-                            <a href="img/recipes/gallery-3.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
-                            <a href="#"><i class="fa fa-chain"></i></a>
-                            <h6>Time to Try a Healthy Meal <span>Fruit, Vegetables, Meat</span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mix vegetables">
-                <div class="gallery-item">
-                    <img src="img/recipes/gallery-4.jpg" alt="">
-                    <div class="gi-hover-warp">
-                        <div class="gi-hover">
-                            <a href="img/recipes/gallery-4.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
-                            <a href="#"><i class="fa fa-chain"></i></a>
-                            <h6>Time to Try a Healthy Meal <span>Fruit, Vegetables, Meat</span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="col-lg-4 col-sm-6 mix gym">
-                <div class="gallery-item">
-                    <img src="img/recipes/gallery-4.jpg"" alt="">
-                    <div class="gi-hover-warp">
-                        <div class="gi-hover">
-                            <a href="img/recipes/gallery-4.jpg" class="image-popup"><i
-                                    class="fa fa-search-plus"></i></a>
-                            <a href="#"><i class="fa fa-chain"></i></a>
-                            <h6>Time to Try a Healthy Meal <span>Fruit, Vegetables, Meat</span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mix crossfit">
-                <div class="gallery-item">
-                    <img src="img/recipes/gallery-5.jpg"" alt="">
-                    <div class="gi-hover-warp">
-                        <div class="gi-hover">
-                            <a href="img/recipes/gallery-5.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
-                            <a href="#"><i class="fa fa-chain"></i></a>
-                            <h6>Time to Try a Healthy Meal <span>Fruit, Vegetables, Meat</span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mix gym crossfit">
-                <div class="gallery-item">
-                    <img src="img/recipes/gallery-6.jpg"" alt="">
-                    <div class="gi-hover-warp">
-                        <div class="gi-hover">
-                            <a href="img/recipes/gallery-6.jpg" class="image-popup"><i
-                                    class="fa fa-search-plus"></i></a>
-                            <a href="#"><i class="fa fa-chain"></i></a>
-                            <h6>Time to Try a Healthy Meal <span>Fruit, Vegetables, Meat</span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mix workout">
-                <div class="gallery-item">
-                    <img src="img/recipes/gallery-7.jpg"" alt="">
-                    <div class="gi-hover-warp">
-                        <div class="gi-hover">
-                            <a href="img/recipes/gallery-7.jpg" class="image-popup"><i
-                                    class="fa fa-search-plus"></i></a>
-                            <a href="#"><i class="fa fa-chain"></i></a>
-                            <h6>Time to Try a Healthy Meal <span>Fruit, Vegetables, Meat</span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mix crossfit gym">
-                <div class="gallery-item">
-                    <img src="img/recipes/gallery-8.jpg"" alt="">
-                    <div class="gi-hover-warp">
-                        <div class="gi-hover">
-                            <a href="img/recipes/gallery-8.jpg" class="image-popup"><i
-                                    class="fa fa-search-plus"></i></a>
-                            <a href="#"><i class="fa fa-chain"></i></a>
-                            <h6>Time to Try a Healthy Meal <span>Fruit, Vegetables, Meat</span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mix crossfit gym workout">
-                <div class="gallery-item">
-                    <img src="img/recipes/gallery-9.jpg"" alt="">
-                    <div class="gi-hover-warp">
-                        <div class="gi-hover">
-                            <a href="img/recipes/gallery-9.jpg" class="image-popup"><i
-                                    class="fa fa-search-plus"></i></a>
-                            <a href="#"><i class="fa fa-chain"></i></a>
-                            <h6>Time to Try a Bodyweight Workout <span>Fruit, Vegetables, Meat</span></h6>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+            
         </div>
     </div>
 </section>
 <!-- Gallery Section End -->
 
-
 <?php $__env->stopSection(); ?>
+
+
+
+
 <?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/lucas/code/chainganglaravel/resources/views/recipes.blade.php ENDPATH**/ ?>
