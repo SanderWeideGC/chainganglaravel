@@ -104,7 +104,8 @@ Route::group(['middleware' => ['auth', 'admin']], function() {
         return view('admin.users', ['users' => $users]);
     });
     Route::get('/recipesd', function() {
-        return view('admin.recipes');
+        $recipes = DB::table('foto')->get();
+        return view('admin.recipes', ['recipes' => $recipes]);
     });
 });
 
@@ -112,12 +113,19 @@ Route::group(['middleware' => ['auth', 'admin']], function() {
 Route::get('/dashboard/create', 'BlogController@created');
 Route::get('/dashboard/edit/{blog}', 'BlogController@edit');
 Route::put('/dashboard/{blog}', 'BlogController@update');
-Route::delete('/{blog}', 'BlogController@destroy');
+Route::delete('/bd/{blog}', 'BlogController@destroy');
 });
 
 Route::group(['middleware' => ['auth', 'admin']], function() {
 Route::get('/users/create', 'UserController@created');
 Route::get('/users/edit/{user}', 'UserController@edit');
 Route::put('/users/{user}', 'UserController@update');
-Route::delete('/{user}', 'UserController@destroy');
+Route::delete('/ud/{user}', 'UserController@destroy');
 });
+
+Route::group(['middleware' => ['auth', 'admin']], function() {
+    Route::get('/recipesd/create', 'RecipesController@created');
+    Route::get('/recipesd/edit/{recipes}', 'RecipesController@edit');
+    Route::put('/recipesd/{recipes}', 'RecipesController@update');
+    Route::delete('/rd/{recipes}', 'RecipesController@destroy');
+    });

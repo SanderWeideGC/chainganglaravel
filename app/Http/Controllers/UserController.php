@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\users;
+use Image;
 
 class UserController extends Controller
 {
@@ -47,7 +48,7 @@ class UserController extends Controller
             'image' => ['required']
         ]);
 
-        $user = new users();
+        $user = new Users();
 
         $user->titel = $request->input('titel');
         $user->body = $request->input('body');
@@ -77,8 +78,9 @@ class UserController extends Controller
         return redirect('/users');
     }
 
-    public function destroy(user $user)
+    public function destroy(users $user)
     {
+        // dd($users);
         $user->delete();
         return redirect()->back();
     }

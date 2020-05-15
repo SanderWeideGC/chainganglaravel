@@ -74,7 +74,7 @@
                     <a href="/dashboard/edit/{{$data->id}}">Edit</a>
                   </td>
                   <td>
-                  <form method="POST" action="{{$data->id}}" >
+                  <form method="POST" action="bd/{{$data->id}}" >
 					          @csrf
             		    @method('DELETE')
 						        <button type="submit" style="border:none"><i class="fas fa-trash-alt"></i>
