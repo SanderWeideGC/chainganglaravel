@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FITTY</title>
-
+    <script src="{{ asset('js/app.js') }}" defer></script>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -55,6 +55,30 @@
             </div>
         </div>
         <div id="mobile-menu-wrap"></div>
+    </div>
+    <div class="float-right">
+                         
+                        <!-- Authentication Links -->
+                        @guest
+                                <a class="btn btn-success" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            @if (Route::has('register'))
+                                    <a class="btn btn-info" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            @endif
+                        @else
+                                    @if(Auth::user()->usertype == 'admin')
+                                        <a class="btn btn-success" href="/dashboard">Dashboard</a>
+                                    @endif
+                                    <a class="btn btn-warning" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+                                    
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                        @endguest
     </div>
 </header>
 <!-- Header End -->
