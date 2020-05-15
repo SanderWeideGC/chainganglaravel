@@ -11,7 +11,7 @@
             float: left;
           "
         >
-          <h4 class="card-title"> Users</h4>
+          <h4 class="card-title"> Recipes</h4>
         </div>
         
         <div class="card-header" 
@@ -30,13 +30,13 @@
                   ID
                 </th>
                 <th>
-                  Name
+                  Gerecht
                 </th>
                 <th>
-                  Email
+                  Recept
                 </th>
                 <th>
-                  Role
+                  Image
                 </th>
               </thead>
               <tbody>
